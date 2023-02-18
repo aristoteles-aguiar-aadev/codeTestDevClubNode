@@ -1,0 +1,30 @@
+{
+  "name": "first-project-node",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto NODE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aristoteles-aguiar-aadev/codeTestDevClubNode.git"
+  },
+  "keywords": [
+    "projectNode"
+  ],
+  "author": "Aristoteles Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aristoteles-aguiar-aadev/codeTestDevClubNode/issues"
+  },
+  "homepage": "https://github.com/aristoteles-aguiar-aadev/codeTestDevClubNode#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
